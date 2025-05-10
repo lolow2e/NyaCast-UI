@@ -5,9 +5,7 @@
 ]]
 
 local ver = "1.0.0"
-local changelog = "Initial Release: Welcome to NyaCAST UI Library!"
-
-local lib = {}
+local changelog = game:HttpGet("https://raw.githubusercontent.com/lolow2e/NyaCast-UI/main/Changelog.txt") or "UNABLE TO GET CHANGELOG"
 
 local player = game.Players.LocalPlayer
 local mouse = player:GetMouse()
